@@ -1,8 +1,6 @@
 import getRefs from "./refs";
 
-getRefs();
-
-let refs;
+const refs = getRefs();
 
 const { countryList, countryInfo } = refs;
 

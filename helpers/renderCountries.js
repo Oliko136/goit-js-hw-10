@@ -2,7 +2,7 @@ import Notiflix from "notiflix";
 import getRefs from "./refs";
 import { resetAll, resetCountryList, resetCountryInfo } from "./reset";
 
-getRefs();
+const refs = getRefs();
 
 const { countryList, countryInfo } = refs;
 

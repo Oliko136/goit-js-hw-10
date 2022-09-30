@@ -8,7 +8,7 @@ import { renderCountries } from './helpers/renderCountries';
 
 const DEBOUNCE_DELAY = 300;
 
-getRefs();
+const refs = getRefs();
 
 const { input } = refs;
 
