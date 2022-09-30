@@ -2,7 +2,7 @@ import getRefs from "./refs";
 
 getRefs();
 
-const { countryList, countryInfo } = refs;
+const { input, countryList, countryInfo } = refs;
 
 export function resetAll() {
     countryInfo.innerHTML = '';
